@@ -126,3 +126,7 @@ a.navbar-brand:hover {
   margin-top: -30px;
   border: 2px ridge #bbb;
 }
+
+#musica {
+  opacity: 0.75;
+}
