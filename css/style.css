@@ -18,6 +18,38 @@ body {
   margin: 0;
 }
 
+.main-title {
+  color: #fc7f0c;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title:after {
+  content: "";
+  display: block;
+  border-top: 2px solid #fbef66;
+  width: 15%;
+  position: absolute;
+  margin-top: 10px;
+  left: 42.5%;
+}
+
+.btn {
+  border: 6px ridge #bbb;
+  padding: 10px 30px;
+  color: #fbef66;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1e;
+}
+
+.btn:hover {
+  color: #fbef66;
+  border-color: #fbef66;
+  background: url("../img/fogo.gif") -10px -30px repeat-x;
+}
+
 /* Barra de navegação */
 header,
 .navbar {
@@ -164,4 +196,40 @@ a.navbar-brand:hover {
   height: auto;
   background: url(../img/carousel-3.jpeg) no-repeat center;
   background-size: cover;
+}
+
+/* Portfólio */
+.project-box {
+  margin-bottom: 30px;
+}
+
+.project-box img {
+  height: 380px;
+  width: 400px;
+  border: 6px ridge #bbb;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  border: 6px ridge #bbb;
+  color: #fc7f0c;
+  background-color: #1c1d1b;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 20px 40px 20px;
+}
+
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
+  color: #fbef66;
+  border-color: #fbef66;
+  background: url("../img/fogo.gif") -10px -30px repeat-x;
 }
