@@ -8,3 +8,20 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+
+.container {
+  padding: 70px 0;
+  margin-bottom: -90px;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Barra de navegação */
+header,
+.navbar {
+  background: url(../img/estrelas.gif) repeat;
+  height: 50px;
+  padding: 20px;
+}
