@@ -77,3 +77,52 @@ a.navbar-brand:hover {
 .navbar-expand-lg .navbar-nav .navbar-link {
   padding: 1rem 0.8rem;
 }
+
+/* Home */
+.col-md-12.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  padding: 40px;
+  color: #fc7f0c;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+  height: 100%;
+  background: url(../img/estrelas.gif) repeat;
+}
+
+.home a {
+  text-decoration: none;
+  color: #fc7f0c;
+}
+
+.home a:hover {
+  opacity: 0.75;
+}
+
+.home h2 {
+  margin-bottom: 20px;
+}
+
+.container.home img {
+  max-width: 100%;
+}
+
+.imagem {
+  flex-basis: 20%;
+}
+
+.gif {
+  height: 120px;
+}
+
+#faixa {
+  height: 3px;
+  width: 100%;
+  margin-top: -30px;
+  border: 2px ridge #bbb;
+}
