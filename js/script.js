@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+  new fairyDustCursor({colors: ["#ffa500"]});
   //Filtro do portfólio
   $('.filter-btn').on('click', function(){
     let type=$(this).attr('id');
