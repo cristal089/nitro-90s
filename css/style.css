@@ -25,3 +25,21 @@ header,
   height: 50px;
   padding: 20px;
 }
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 3px ridge #bbb;
+  border-top: unset;
+  width: 9999px;
+  height: 5px;
+  margin-top: 55px;
+  margin-left: -1000px;
+  background-color: #bbb;
+}
