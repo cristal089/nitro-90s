@@ -240,6 +240,7 @@ a.navbar-brand:hover {
 }
 
 /* Orçamento */
+/* Área de contato */
 #contact-area .container .row {
   background: url(../img/estrelas.gif) repeat;
 }
@@ -248,7 +249,7 @@ a.navbar-brand:hover {
   content: "";
   display: block;
   position: absolute;
-  border: 1px ridge #bbb;
+  border: 3px ridge #bbb;
   border-top: unset;
   width: 80%;
   margin-top: 75px;
@@ -256,9 +257,14 @@ a.navbar-brand:hover {
   background-color: #bbb;
 }
 
+#contact-area h3 {
+  font-size: 36px;
+  margin-left: 40px;
+}
+
 .contato-form {
   padding: 25px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-left: 25px;
 }
 
@@ -296,4 +302,47 @@ a.navbar-brand:hover {
 .contato-form button {
   margin-top: 25px;
   padding: 7px 40px;
+}
+
+/* Orçamento */
+/* Tabela de preços */
+.table-bordered {
+  border: 1px solid #fc7f0c;
+  border-collapse: separate;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table {
+  max-width: 100%;
+  width: 500px;
+  background-color: transparent;
+  border-spacing: 0;
+  margin-top: 95px;
+  margin-left: -30px;
+  height: 50%;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #000;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td {
+  color: #fc7f0c;
+}
+
+.table th {
+  color: #fbef66;
+  font-size: 20px;
+  text-align: center;
+}
+
+.table td {
+  color: #fc7f0c;
+  font-size: 18px;
+  text-align: center;
 }
