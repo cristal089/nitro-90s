@@ -242,7 +242,6 @@ a.navbar-brand:hover {
 /* Orçamento */
 #contact-area .container .row {
   background: url(../img/estrelas.gif) repeat;
-  width: 50%;
 }
 
 #contact-area .container .row:after {
@@ -251,7 +250,7 @@ a.navbar-brand:hover {
   position: absolute;
   border: 1px ridge #bbb;
   border-top: unset;
-  width: 37.5%;
+  width: 80%;
   margin-top: 75px;
   margin-left: 30px;
   background-color: #bbb;
@@ -259,20 +258,39 @@ a.navbar-brand:hover {
 
 .contato-form {
   padding: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 .contato-form label {
   color: #fc7f0c;
+  text-shadow: 5px 5px 5px #000;
   font-size: 20px;
+  text-align: right;
+}
+
+#label-pedido {
+  position: absolute;
+  margin-left: -137px;
 }
 
 .contato-form textarea,
 .contato-form input {
   background-color: #000;
   border: 1px solid #fbef66;
-  width: 100%;
+  width: 60%;
   color: #fbef66;
+  padding: 4px;
   outline: none;
+  margin-bottom: 20px;
+}
+
+.contato-form textarea {
+  margin-left: 116px;
+}
+
+.contato-form input {
+  margin-left: 29px;
 }
 
 .contato-form button {

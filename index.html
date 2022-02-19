@@ -243,19 +243,21 @@
           <div class="row">
             <div class="col-12">
               <h3 class="main-title">orçamento</h3>
+            </div>
+            <div class="col-md-6">
               <form class="contato-form">
                 <fieldset>
                   <div class="form form-inline">
-                    <label for="nome" class="form">nome</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <label for="nome" class="form col-md-2">nome</label>
+                    <input class="col-md-10" type="text" id="nome" name="nome" required>
                   </div>
                   <div class="form form-inline">
-                    <label for="email" class="form">e-mail</label>
-                    <input type="text" id="email" name="email" required>
+                    <label for="email" class="form col-md-2">e-mail</label>
+                    <input class="col-md-10" type="text" id="email" name="email" required>
                   </div>
                   <div class="form form-inline">
-                    <label for="telefone" class="form">telefone</label>
-                    <input type="text" id="telefone" name="telefone">
+                    <label for="telefone" class="form col-md-2">telefone</label>
+                    <input class="col-md-10" type="text" id="telefone" name="telefone">
                   </div>
 
                   <!-- Anti spam -->
@@ -265,8 +267,8 @@
                   <input type="text" class="nao-aparece" name="dontchange" value="http://">
 
                   <div class="form form-inline">
-                    <label for="mensagem" class="form">seu pedido</label>
-                    <textarea name="mensagem" id="mensagem" cols="3" rows="5"></textarea>
+                    <label for="mensagem" class="form col-md-2" id="label-pedido">seu pedido</label>
+                    <textarea class="col-md-10" name="mensagem" id="mensagem" cols="3" rows="5"></textarea>
                   </div>
                   <button id="enviar" class="btn" name="enviar" type="submit">enviar</button>
                 </fieldset>
