@@ -193,7 +193,7 @@
     </div>
     </div>
     -->
-      <!-- Orçamento - atualizado -->
+      <!-- 
       <div id="contact-area">
         <div class="container">
           <div class="row">
@@ -221,7 +221,7 @@
                   </div>
                 </div>
 
-                <!-- Anti spam -->
+               
                 <label class="nao-aparece">se você não é um robô, deixe em branco.</label>
                 <input type="text" class="nao-aparece" name="leaveblank">
                 <label class="nao-aparece">se você não é um robô, não mude este campo.</label>
@@ -237,7 +237,45 @@
             </div>
           </div>
         </div>
+        Orçamento - atualizado -->
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">orçamento</h3>
+              <form class="contato-form">
+                <fieldset>
+                  <div class="form form-inline">
+                    <label for="nome" class="form">nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                  </div>
+                  <div class="form form-inline">
+                    <label for="email" class="form">e-mail</label>
+                    <input type="text" id="email" name="email" required>
+                  </div>
+                  <div class="form form-inline">
+                    <label for="telefone" class="form">telefone</label>
+                    <input type="text" id="telefone" name="telefone">
+                  </div>
+
+                  <!-- Anti spam -->
+                  <label class="nao-aparece">se você não é um robô, deixe em branco.</label>
+                  <input type="text" class="nao-aparece" name="leaveblank">
+                  <label class="nao-aparece">se você não é um robô, não mude este campo.</label>
+                  <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+                  <div class="form form-inline">
+                    <label for="mensagem" class="form">seu pedido</label>
+                    <textarea name="mensagem" id="mensagem" cols="3" rows="5"></textarea>
+                  </div>
+                  <button id="enviar" class="btn" name="enviar" type="submit">enviar</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </main>
   <!-- Scripts do projeto -->
   <script src="js/script.js"></script>

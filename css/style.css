@@ -242,6 +242,7 @@ a.navbar-brand:hover {
 /* Orçamento */
 #contact-area .container .row {
   background: url(../img/estrelas.gif) repeat;
+  width: 50%;
 }
 
 #contact-area .container .row:after {
@@ -250,43 +251,31 @@ a.navbar-brand:hover {
   position: absolute;
   border: 1px ridge #bbb;
   border-top: unset;
-  width: 80%;
+  width: 37.5%;
   margin-top: 75px;
   margin-left: 30px;
   background-color: #bbb;
 }
 
-#contato-form {
+.contato-form {
   padding: 25px;
 }
 
-#contato-form .grupo-label {
-  float: left;
-  width: 160px;
-  padding-top: 5px;
-  text-align: right;
-}
-
-#contato-form label {
+.contato-form label {
   color: #fc7f0c;
   font-size: 20px;
-  display: block;
-  margin-bottom: 5px;
 }
 
-#contato-form textarea,
-#contato-form input {
+.contato-form textarea,
+.contato-form input {
   background-color: #000;
   border: 1px solid #fbef66;
-  padding: 3px;
-  width: 60%;
-  margin-left: 200px;
+  width: 100%;
   color: #fbef66;
   outline: none;
 }
 
-#contato-form button {
+.contato-form button {
   margin-top: 25px;
   padding: 7px 40px;
-  margin-left: 92%;
 }
