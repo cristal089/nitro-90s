@@ -243,6 +243,7 @@ a.navbar-brand:hover {
 /* Área de contato */
 #contact-area .container .row {
   background: url(../img/estrelas.gif) repeat;
+  padding: 20px;
 }
 
 #contact-area .container .row:after {
@@ -297,6 +298,14 @@ a.navbar-brand:hover {
 
 .contato-form input {
   margin-left: 29px;
+}
+
+#btn-form {
+  width: 50%;
+  padding: 20px;
+  background-color: #000;
+  text-align: center;
+  margin-left: 25%;
 }
 
 .contato-form button {
