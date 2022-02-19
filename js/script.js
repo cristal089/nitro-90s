@@ -28,5 +28,25 @@ $(document).ready(function(){
       });
     }
   }
+  // Scroll para seções
+  let navBtn = $('.nav-item');
 
+  let homeSection = $('.home');
+  let portfolioSection = $('#portfolio-area');
+  let contactSection = $('#contact-area');
+
+  let scrollTo = '';
+  $(navBtn).click(function(){
+    let btnId = $(this).attr('id');
+    if(btnId == 'portfolio-menu'){
+      scrollTo = portfolioSection;
+    } else if(btnId == 'contact-menu'){
+      scrollTo = contactSection;
+    } else{
+      scrollTo = homeSection;
+    }
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(scrollTo).offset().top - 70
+    }, 1500);
+  }); 
 });

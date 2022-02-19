@@ -350,11 +350,11 @@ table {
 }
 
 #btn-form {
-  width: 40%;
-  padding: 20px 0px 20px 0px;
-  background-color: #000;
+  width: 20%;
+  padding: 0px 0px 20px 0px;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 39%;
+  margin-top: -20px;
 }
 
 .contato-form button {
@@ -362,8 +362,8 @@ table {
   padding: 7px 40px;
 }
 
-.gif-form {
-  height: 60px;
+#btn-form .botao {
+  background-color: #000;
 }
 
 /* Copyright */
