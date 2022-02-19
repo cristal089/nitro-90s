@@ -390,3 +390,14 @@ table {
   text-decoration: none;
   opacity: 0.75;
 }
+
+#copy-area .container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 3px ridge #bbb;
+  border-top: unset;
+  width: 9999px;
+  margin-top: -10px;
+  margin-left: -1000px;
+}
