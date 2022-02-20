@@ -36,7 +36,6 @@ body {
   transition-property: background, color, border-color;
   transition-duration: 0.5s;
   transition-delay: 0.25;
-  transition-timing-function: ease-out;
 }
 
 .btn:hover {
@@ -269,7 +268,8 @@ a.navbar-brand:hover {
 }
 
 .contato-form textarea {
-  margin-left: 116px;
+  margin-top: -27px;
+  margin-left: 114px;
 }
 
 .contato-form input {
