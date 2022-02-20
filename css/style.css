@@ -401,3 +401,190 @@ table {
   margin-top: -10px;
   margin-left: -1000px;
 }
+
+/* Responsivo tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Barra de navegação */
+  header,
+  .navbar {
+    padding: 5px;
+  }
+
+  .navbar-collapse {
+    background-color: #000;
+  }
+
+  #logo {
+    width: 170px;
+    margin-top: -10px;
+  }
+
+  #navbar-links a {
+    text-shadow: none;
+    margin-left: 10px;
+  }
+
+  /* Home */
+  .container.home img {
+    display: none;
+  }
+
+  .imagem {
+    display: none;
+  }
+
+  .gif-home {
+    display: none;
+  }
+
+  /* Portfólio */
+  .project-box {
+    margin-bottom: 30px;
+  }
+
+  .project-box img {
+    height: 220px;
+    width: 420px;
+    border: 6px ridge #bbb;
+  }
+
+  /* Orçamento */
+  /* Área de contato */
+  #contact-area .container .row:after {
+    width: 70%;
+    margin-left: 17px;
+  }
+
+  #label-pedido {
+    margin-left: -45px;
+  }
+
+  .contato-form textarea,
+  .contato-form input {
+    width: 100%;
+  }
+
+  .contato-form textarea {
+    margin-left: 9px;
+    margin-top: 40px;
+  }
+
+  .contato-form input {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  /* Orçamento */
+  /* Tabela de preços */
+  .table {
+    width: 80%;
+    margin-bottom: 0px;
+    margin-top: 55%;
+    margin-left: 25px;
+  }
+
+  #btn-form {
+    margin-top: -10px;
+  }
+} /* Final do estilo para tablet */
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 787px) {
+  /* Barra de navegação */
+  header,
+  .navbar {
+    padding: 5px;
+  }
+
+  .navbar-collapse {
+    background-color: #000;
+  }
+
+  #logo {
+    width: 170px;
+    margin-top: -10px;
+  }
+
+  #navbar-links a {
+    text-shadow: none;
+    margin-left: 10px;
+  }
+
+  /* Home */
+  .container.home img {
+    display: none;
+  }
+
+  .imagem {
+    display: none;
+  }
+
+  .gif-home {
+    display: none;
+  }
+
+  /* Portfólio */
+  .project-box {
+    margin-bottom: 30px;
+  }
+
+  .project-box img {
+    height: 320px;
+    width: 320px;
+    margin-left: 12%;
+  }
+
+  #filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #portfolio-area .filter-btn {
+    margin: 8px 0;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 40px 20px;
+  }
+
+  /* Orçamento */
+  /* Área de contato */
+  #contact-area .container .row:after {
+    width: 80%;
+    margin-left: 22px;
+  }
+
+  #label-pedido {
+    margin-left: 0;
+  }
+
+  .contato-form textarea,
+  .contato-form input {
+    width: 100%;
+  }
+
+  .contato-form textarea {
+    margin-left: 3px;
+    margin-top: 40px;
+  }
+
+  .contato-form input {
+    margin-top: 10px;
+    margin-left: 3px;
+  }
+
+  /* Orçamento */
+  /* Tabela de preços */
+  .table {
+    width: 80%;
+    margin-bottom: 0px;
+    margin-top: 0;
+    margin-left: 52px;
+  }
+
+  #btn-form {
+    margin-top: 30px;
+    margin-left: 168px;
+  }
+}
