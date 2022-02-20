@@ -486,7 +486,7 @@ table {
   #btn-form {
     margin-top: -10px;
   }
-} /* Final do estilo para tablet */
+} /* Fim do estilo para tablet */
 
 /* Estilo para smartphone */
 @media only screen and (max-width: 787px) {
@@ -587,4 +587,4 @@ table {
     margin-top: 30px;
     margin-left: 168px;
   }
-}
+} /* Fim do estilo para smartphone */
