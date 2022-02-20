@@ -31,6 +31,12 @@ body {
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.1e;
+
+  /* Animação do botão */
+  transition-property: background, color, border-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.25;
+  transition-timing-function: ease-out;
 }
 
 .btn:hover {
@@ -196,8 +202,13 @@ a.navbar-brand:hover {
   padding: 0px 20px 40px 20px;
 }
 
-#portfolio-area .filter-btn.active,
 #portfolio-area .filter-btn:hover {
+  color: #fbef66;
+  border-color: #fbef66;
+  background: url("../img/fogo.gif") -10px -30px repeat-x;
+}
+
+#portfolio-area .filter-btn.active {
   color: #fbef66;
   border-color: #fbef66;
   background: url("../img/fogo.gif") -10px -30px repeat-x;
