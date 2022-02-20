@@ -167,41 +167,6 @@ a.navbar-brand:hover {
   opacity: 0.75;
 }
 
-/* Carousel - desativado */
-.container-fluid {
-  padding: 0;
-}
-
-#mainSlider .carousel-inner,
-#mainSlider .carousel-item {
-  height: 90vh;
-}
-
-.carousel-indicators .active {
-  background-color: #fbef66;
-}
-
-#cropper1 {
-  width: auto;
-  height: auto;
-  background: url(../img/carousel-1.jpeg) no-repeat center;
-  background-size: cover;
-}
-
-#cropper2 {
-  width: auto;
-  height: auto;
-  background: url(../img/carousel-2.jpeg) no-repeat center;
-  background-size: cover;
-}
-
-#cropper3 {
-  width: auto;
-  height: auto;
-  background: url(../img/carousel-3.jpeg) no-repeat center;
-  background-size: cover;
-}
-
 /* Portfólio */
 .project-box {
   margin-bottom: 30px;
