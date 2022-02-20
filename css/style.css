@@ -36,6 +36,7 @@ body {
   transition-property: background, color, border-color;
   transition-duration: 0.5s;
   transition-delay: 0.25;
+  transition-timing-function: ease-out;
 }
 
 .btn:hover {
