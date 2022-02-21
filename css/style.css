@@ -164,8 +164,9 @@ a.navbar-brand:hover {
 
 #faixa {
   height: 3px;
-  width: 100%;
+  width: 9999px;
   margin-top: -30px;
+  margin-left: -1000px;
   border: 2px ridge #bbb;
 }
 
@@ -375,6 +376,10 @@ table {
   width: 9999px;
   margin-top: -10px;
   margin-left: -1000px;
+}
+
+footer {
+  width: 100%;
 }
 
 /* Responsivo tablet */
