@@ -378,8 +378,11 @@ table {
   margin-left: -1000px;
 }
 
-footer {
-  width: 100%;
+#copy-area .gif-footer {
+  max-width: 90px;
+  height: 30px;
+  display: inline-block;
+  opacity: 0.75;
 }
 
 /* Responsivo tablet */
