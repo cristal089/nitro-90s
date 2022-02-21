@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //Customização do cursor
   new fairyDustCursor({colors: ["#ffa500"]});
   //Filtro do portfólio
   $('.filter-btn').on('click', function(){
