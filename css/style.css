@@ -377,6 +377,13 @@ table {
   margin-left: -1000px;
 }
 
+#copy-area .gif-footer {
+  max-width: 90px;
+  height: 30px;
+  display: inline-block;
+  opacity: 0.75;
+}
+
 /* Responsivo tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   /* Barra de navegação */
