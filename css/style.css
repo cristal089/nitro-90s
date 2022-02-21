@@ -4,7 +4,7 @@ body {
   background: url(../img/fundo.png) repeat;
   width: 100%;
   height: 100%;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
   overflow-x: hidden;
 }
@@ -128,13 +128,17 @@ a.navbar-brand:hover {
 }
 
 .home {
-  padding: 40px;
+  padding: 0px;
   color: #fc7f0c;
   text-align: center;
   text-decoration: underline;
   width: 100%;
-  height: 100%;
+  height: 250px;
+  margin-top: -60px;
   background: url(../img/estrelas.gif) repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .home a {
@@ -165,13 +169,15 @@ a.navbar-brand:hover {
 #faixa {
   height: 3px;
   width: 9999px;
-  margin-top: -30px;
+  margin-top: 190px;
   margin-left: -1000px;
   border: 2px ridge #bbb;
 }
 
 #musica {
   opacity: 0.75;
+  margin-top: 20px;
+  margin-bottom: -40px;
 }
 
 /* Portfólio */
@@ -385,6 +391,15 @@ table {
   opacity: 0.75;
 }
 
+footer {
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
 /* Responsivo tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   /* Barra de navegação */
@@ -434,7 +449,7 @@ table {
   /* Orçamento */
   /* Área de contato */
   #contact-area .container .row:after {
-    width: 70%;
+    width: 650px;
     margin-left: 17px;
   }
 
@@ -534,8 +549,13 @@ table {
   /* Orçamento */
   /* Área de contato */
   #contact-area .container .row:after {
-    width: 80%;
-    margin-left: 22px;
+    display: none;
+  }
+
+  #contact-area h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: -20px;
   }
 
   #label-pedido {
