@@ -84,5 +84,7 @@ $ <seuNavegador> index.html
 
 ---
 
+<span>
 <img src="img/plumbob.gif">
 Desenvolvido por Rafaela Cristina de Moraes Mendes
+</span>
