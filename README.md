@@ -51,6 +51,18 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 
+---
+
+## Conteúdo
+
+O site possui três principais seções: home, portfólio e orçamento.
+
+- Home: contém navbar para navegação em scroll pelo site, introdução ao portfólio e um player de música.
+
+- Portfólio: contém os desenhos tradicionais, digitais e grafites de nitro.
+
+- Orçamento: contém um formulário para pedido de encomenda de arte e uma tabela de preços base.
+
 ## Como baixar o repositório
 
 Você pode baixar pelo terminal seguindo estas instruções:
