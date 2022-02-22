@@ -41,7 +41,7 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Referências utilizadas
 
-O site foi desenvolvido utilizando como referência a estilização encontrada em [Geo for Bootstrap]("https://code.divshot.com/geo-bootstrap/") e parte de suas soluções em HTML e CSS encontrada no [GitHub do projeto]("https://github.com/divshot/geo-bootstrap"), tendo em vista a seguinte licença:
+O site foi desenvolvido utilizando como referência a estilização encontrada em <a href="https://code.divshot.com/geo-bootstrap/">Geo for Bootstrap</a> e parte de suas soluções em HTML e CSS encontrada no <a href="https://github.com/divshot/geo-bootstrap">GitHub do projeto</a>, tendo em vista a seguinte licença:
 
 "Copyright (c) 2013 Divshot
 
