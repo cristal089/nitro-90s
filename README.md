@@ -84,5 +84,5 @@ $ <seuNavegador> index.html
 
 ---
 
-<img src="img/sims.gif">
+<img src="img/pumblob.gif">
 Desenvolvido por Rafaela Cristina de Moraes Mendes
