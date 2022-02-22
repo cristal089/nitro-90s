@@ -24,11 +24,18 @@
 
 ## Tecnologias utilizadas
 
-O repositório foi criado utilizando as seguintes tecnologias:
+O site foi desenvolvido utilizando as seguintes tecnologias:
 
-- [HTML](https://html.spec.whatwg.org/multipage/)
 - [Git](https://git-scm.com)
 - [GitHub](https://github.com)
+- [HTML](https://html.spec.whatwg.org/multipage/)
+- [Bootstrap](https://getbootstrap.com)
+- [CSS](https://www.w3schools.com/css/)
+- [Javascript](https://www.javascript.com)
+- [Google Fonts](https://fonts.google.com)
+- [GifCities](https://gifcities.org)
+- [Geo for Bootstrap](https://code.divshot.com/geo-bootstrap/)
+- [Flaming Text](https://flamingtext.com)
 
 ---
 
