@@ -41,7 +41,7 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Créditos
 
-Todos os créditos dos desenhos são do artista <a href="https://www.instagram.com/sucodenitro/">sucodenitro</a>
+Todos os créditos dos desenhos são do artista <a href="https://www.instagram.com/sucodenitro/">sucodenitro</a>.
 
 O site foi desenvolvido utilizando como referência a estilização encontrada em <a href="https://code.divshot.com/geo-bootstrap/">Geo for Bootstrap</a> e parte de suas soluções em HTML e CSS encontrada no <a href="https://github.com/divshot/geo-bootstrap">GitHub do projeto</a>, tendo em vista a seguinte licença:
 
@@ -84,4 +84,5 @@ $ <seuNavegador> index.html
 
 ---
 
+<img src="img/sims.gif">
 Desenvolvido por Rafaela Cristina de Moraes Mendes
