@@ -10,13 +10,13 @@
 
 - [Sobre](#sobre)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Créditos](#creditos)
-- [Conteúdo](#conteudo)
+- [Créditos](#créditos)
+- [Conteúdo](#conteúdo)
 - [Como baixar](#como-baixar)
 
 ---
 
-<h2 id="sobre">Sobre</h2>
+## Sobre
 
 `nitro-90s` é um projeto criado com o propósito de servir de portfólio digital para as artes do sucodenitro, nome artístico de Nicolas Oliveira. O site segue a estética da internet dos anos 90 e 2000, e foi desenvolvido como entrega final para o trainee da byron.solutions.
 
