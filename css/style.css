@@ -473,12 +473,16 @@ footer {
 
   .contato-form textarea {
     margin-left: 9px;
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   .contato-form input {
     margin-top: 10px;
     margin-left: 10px;
+  }
+
+  .contato-form .form label {
+    display: inline;
   }
 
   /* Orçamento */

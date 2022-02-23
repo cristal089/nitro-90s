@@ -10,8 +10,8 @@
 
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Créditos](#-creditos)
-- [Conteúdo](#-conteudo)
+- [Créditos](#-créditos)
+- [Conteúdo](#-conteúdo)
 - [Como baixar](#-como-baixar)
 
 ---
@@ -42,6 +42,8 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 ## Créditos
 
 Todos os créditos dos desenhos são do artista <a href="https://www.instagram.com/sucodenitro/">sucodenitro</a>.
+
+Os créditos pela música utilizada no player da home vão para <a href="https://www.youtube.com/watch?v=BUAEKZE7vrk">crumpy</a>.
 
 O site foi desenvolvido utilizando como referência a estilização encontrada em <a href="https://code.divshot.com/geo-bootstrap/">Geo for Bootstrap</a> e parte de suas soluções em HTML e CSS encontrada no <a href="https://github.com/divshot/geo-bootstrap">GitHub do projeto</a>, tendo em vista a seguinte licença:
 
